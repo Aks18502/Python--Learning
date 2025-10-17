@@ -1,0 +1,6 @@
+file=open("file.txt","a")
+a=input("enter ur name:")
+b=int(input("enter ur age:"))
+c=input("enter ur place:")
+file.write("\n"+a+"\t"+str(b)+"\t"+c)
+file.close()

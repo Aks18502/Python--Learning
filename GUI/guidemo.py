@@ -1,0 +1,12 @@
+from tkinter import *
+root=Tk()
+root.geometry("600x500")
+a=Label(root,text="Hi I'm Aks")
+a.pack()
+a=Frame(root,width="75",height="80",background="pink")
+a.pack()
+a=Label(root,text="How are you?")
+a.pack()
+a=Frame(root,width="90",height="68",background="blue")
+a.pack()
+root.mainloop()
